@@ -1,0 +1,669 @@
+.custom-scroll{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.custom-scroll::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 4px;
+    background-color: #F5F5F5;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #572f5b;
+}
+
+.bg-muted,.bg-muted:hover{
+	background:#f5f5f5!important;
+	color:#000000 !important;
+}
+.bg-primary{
+	background:#007bff!important;
+	color:#FFFFFF !important;
+}
+.bg-danger{
+	background:#dc3545!important;
+	color:#FFFFFF !important;
+}
+.bg-success{
+	background:#28a745!important;
+	color:#FFFFFF !important;
+}
+.bg-warning{
+	background:orange !important;
+	color:#FFFFFF !important;
+}
+.bg-dark{
+	background:#343a40!important;
+	color:#FFFFFF !important;
+}
+.bg-info{
+	background:#17a2b8!important;
+	color:#FFFFFF !important;
+}
+
+
+
+
+.tag-text-color{
+	color: white !important;
+}
+
+/************************************************/
+#groupleads_model a{	
+    float: right;
+    color: red;
+	margin:10px;
+}
+#groupleads_model{
+	position: fixed;
+	top: calc(100% - 510px);
+    left: 20px;
+    background: #fff;
+	width:400px;
+}
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+#overlay-two {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+#overlay-three {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+/***************************/
+#chatsilo_model a{	
+    float: right;
+    color: red;
+	margin:10px;
+}
+#chatsilo_model{
+	position: fixed;
+	/*top: calc(100% - 310px);*/
+    left: 20px;
+    background: #fff;
+	width:300px;
+	bottom: 20px;
+}
+
+
+
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+/***************************/
+#chatsilo_model_content{
+	float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+#chatsilo_model div{float:left;}
+#chatsilo_model .text{width:100%;text-align:center !important;width:100%;font-size: 20px !important;line-height: 23px;color: #000000;margin-top:7%}
+#chatsilo_model .text h3{font-size: 20px !important;}
+#chatsilo_model .text h2{text-align:center !important;width:100%;font-size: 24px !important;line-height: 23px;color: #333333;margin-top:0;}
+#chatsilo_model .block{width:100%;font-size: 25px !important;line-height: 18px;text-align: center;color: #000000;margin-top: 9%;font-weight: bold;}
+
+.chatsilo-tags-container{
+	width:110px;
+	float:left;
+	position:relative;
+	border:1px solid #f5f5f5;
+}
+.chatsilo-tags-container ul{
+    width: 100%;
+    height: auto;
+    float: left;
+	display:none;
+	/* position:absolute; */
+	z-index:9999999999;
+}
+.chatsilo-tags-container ul li input{
+	float:left;
+}
+.chatsilo-tags-container ul li{
+	z-index:9999999999;
+    border-radius: 10px !important;
+    padding: 12px !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+	margin-bottom:10px;
+	margin-right:50px;
+	
+	display: flex;
+    align-items: center;
+    height: 17px;
+} 
+
+.chatsilo-tags-container span{
+	padding: 3px;
+    width: calc( 100% - 6px );
+	float: left;
+	display:block;
+	z-index:9;
+	cursor:pointer;
+}    
+
+/* #facebook ._-kb a{
+	z-index:9
+} */
+
+li[fb_user_id],li[fb_user_id] > div{
+	z-index:1;
+}
+
+.model-tag-list{
+	display: block !important;
+	height:300px !important;
+}
+
+
+#chatsilo_model_two{
+	left: 35%;
+    width: 370px;
+	position: absolute;
+    top: 100px;
+    margin: auto;
+    float: left;
+    background: white;
+    height: 250px;
+}
+
+
+#chatsilo_model_content_two{
+	left: 50%;
+    width: auto;
+    height: auto;
+	border-radius:20px;
+}
+
+.modal-heading{
+	border-radius:20px;
+}
+
+#chatsilo_model_three{
+/*	left: 50%;
+    width: auto;
+    height: auto;*/
+
+
+  margin: 0 auto !important;
+    width: 52% !important;
+    min-height: 500;
+    height: 500px !important;
+    overflow: scroll !important;
+    background-color: white !important;
+    margin-top: 5%  !important;
+ }
+
+ .content-user-notes-container{
+ 	
+    margin: 0 auto;
+    padding: 28px;
+    width: unset;
+ }
+
+  .content-user-notes-container .notes-description{
+    width: 244px;
+  }
+
+ 
+
+#chatsilo_model_content_two .chatsilo-tags-container{
+	margin: auto;
+    position: relative;
+    /* top: 200px;	 */
+    top: 18%;	
+    width: 93%;
+	padding: 10px 0 10px 15px;
+}
+
+
+#chatsilo_model_content_two .leve-1{
+	float: left;
+}
+
+#chatsilo_model_content_two .close-model{
+	float: right;
+	cursor: pointer;
+	padding: 5px;
+	font-size: 16px;
+    font-weight: bold;
+	margin: 5px 10px;
+	color: gray;
+}
+
+/* #chatsilo_model_content_two .model-tag-list{
+
+	height: 180px;
+	overflow-y: scroll;
+	
+} */
+/*********** TAGS MODEL *************/
+.custom-row{
+	width: 100% !important;
+    float: left !important;
+	background:#FFF !important;
+}
+.tagged-name{
+	width:85%;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 0;
+	color: #7d6e6e;
+    line-height: 1;
+}
+
+.right-side-tag-list li{
+	float:left;
+	padding:3px;
+	margin-right:3px;
+	margin-bottom:3px;
+	border-radius:3px;
+	color: #FFF !important;
+	font-size:13px;
+}
+
+.clearfix .tags-container.chatsilo-tags-container{
+	float: right !important;
+	margin-top: -4px;
+	margin-bottom: 5px;
+}
+
+.chatsilo-selected-tag{
+	padding-bottom: 5px !important;
+  /*float: left;*/
+}
+
+.page-chat-thread-gr ._4k8x span:nth-child(1){
+	text-overflow: ellipsis;
+    width: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+}
+
+
+/*profile css    22-05-20 20*/
+.assign-tag-btn{
+	float: left;
+    margin-left: 40%;
+    background: #A44D91;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+	border-radius:0;
+}
+
+
+#chatsilo_model_content_two input[type="text"]:focus{
+	border: 1px solid #bf95bf !important;
+    border-radius: 10px !important;
+	outline:unset;
+}
+
+#chatsilo_model_content_two input[type="text"]{
+	font-size: 12px;
+    border: 1px solid #bf95bf !important;
+    background: #f5f5f6;
+    border-radius: 10px !important;
+    width: 90%;
+	height: 30px;
+	margin-left: 15px;
+}
+
+.checkbox-container{
+	float: right;
+	margin-right:-90px;
+}
+
+/*********************/
+
+.current-user-profile-parent.tags-container.chatsilo-tags-container{
+	margin-right:15px;
+	margin-top:5px;
+	width:auto;
+	min-width:110px;
+}
+.current-user-profile-parent.tags-container.chatsilo-tags-container span{
+	padding:10px;
+}
+
+.right-side-tag-list{
+	display:inline-block;
+	width:70%;
+}
+.save-multi-tag-user{
+	margin-top:.5rem;
+}
+
+#chatsilo_model_content_two .chatsilo-tags-container{
+	border:unset;
+}
+.text-center{
+	text-align:center !important;
+}
+/* 
+#pagelet_group_members .tags-container.chatsilo-tags-container{
+	margin-right:-90px;
+} */
+#pagelet_group_members .tags-container.chatsilo-tags-container {
+    position: absolute;
+    right: 17px;
+    margin-bottom: .5rem;
+}
+
+
+.row-levels.save-tag-div{
+	display: none;
+}
+
+.add-tag-from-content{
+    margin-right: 12%;
+    float: right;
+}
+
+#tag-name-from-content{
+	width: 86%;
+	float: left;
+	padding: 1% 2%;
+	margin: 0px 0px 0px 4%;
+	border-radius: 0px;
+	height:26px;
+}
+.error-mgs{
+	display:none;
+}
+
+.notes-modal{
+  top: 20px !important;
+  width: 500px !important;
+  left: calc( 50% - 250px)!important;
+}
+
+.chatsilo-teaxtarea{
+  width: 96% !important;
+  margin: 2% 0 !important;
+}
+.row-container{
+  height: 400px;
+  margin-bottom: 2rem;
+}
+.notes{
+  border-bottom: 1px solid #f1ecec;
+    padding-bottom: 10px;
+}
+
+.get-gl-notes{
+  /*float: left;*/
+  width: 95%;
+  color: purple;
+  font-weight: 500;
+  text-align: right;
+  padding: 3px;
+  background: #f5f5f5;
+
+  position: absolute;
+  left: 0;
+  top: 28px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+/********************** HELPER CSS ************************/
+.chatsilo-cols{
+	float:left;
+}
+
+.chatsilo-col-md-12{
+	width:100%;
+}
+
+.chatsilo-col-md-9{
+	width:75%;
+}
+
+.chatsilo-col-md-8{
+  width:66.66%;
+}
+
+.chatsilo-col-md-4{
+  width:33.33%;
+}
+
+.chatsilo-col-md-3{
+	width:25%;
+}
+
+.bg-purple {
+    background: #572f5b !important;
+    color: white !important;
+}
+
+.bg-gray {
+    background: #f5f5f5 !important;
+    color: #000 !important;
+}
+
+.chatsilo-btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;  
+	cursor:pointer;
+}
+.pt-2{
+	padding-top: 1rem;
+}
+.p-2{
+	padding: 1rem;
+}
+.pl-0{
+	padding-left: 0 !important;
+}
+.pr-0{
+	padding-right: 0!important;
+}
+hr{
+	margin:.5rem
+}
+.error {
+    color: red;
+    font-weight: 500;
+}
+.success {
+    color: green;
+    font-weight: 500;
+}
+
+.msg-for-notes {
+  font-size: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+.get-gl-notes{
+  display: none;
+}
+
+li[fb_user_id]:hover .get-gl-notes{
+  display: block;
+}
+
+/*03-07-20000020*/
+
+/*.cts-new-layout div.i1fnvgqd.lhclo0ds.btwxx1t3.j83agx80 div.cts-processed{
+  position: relative;
+}
+.cts-new-layout div.cts-processed .checkbox-container.new-fb-friends-page{
+    position: absolute;
+    top: 0;
+    right: 104px;
+}
+
+.cts-new-layout div.cts-processed .chatsilo-tags-container {
+    position: absolute;
+    top: 70px;
+    right: 120px;
+}*/
+
+
+div.cts-processed {
+  position: relative;
+}
+
+span.new-fb-friends-page{
+  position: absolute;
+  top: 19px;
+  left: 376px;
+}
+
+div.cts-friend-page-li{
+  position: absolute;;
+  top: 84px;
+  left: 290px;
+}
+
+.assign-tag-btn-new-layout{
+    padding: 9px 15px;
+    border-radius: 15px;
+    position: absolute;
+    left: 40%;
+    margin-left: 0;
+}
+
+.cts-new-layout .current-user-profile-parent{
+  min-width: 80px !important;
+  margin: unset;
+}
+
+.cts-new-layout .current-user-profile-parent span.current-user-profile  {
+  padding: 5px !important;
+}
+
+.cts-group-member-page-li {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+
+.cts-processed [role="button"]{
+  margin-top: 20px;
+}
+
+.page-chat-thread-gr span.chatsilo-selected-tag{
+  width:100% !important;
+}  
+
+
+.assign-tag-btn-select-all{
+    padding: 6px;
+    background: blue;
+    color: white;
+    margin-left: 9px;
+    margin-top: 11px;
+    cursor: pointer;
+
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    
+}
+
+.assign-tag-btn-select-all{
+    z-index: 999;
+}
+span.assign-tag-btn.validlogin.assign-tag-btn-new-layout {
+    margin-left: -85px;
+}
+span.assign-tag-btn-select-all.validlogin {
+    background: #0062cc;
+    padding: 7px 9px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.assign-tag-btn-select-all.validlogin input:checked ~ .checkmark {
+  background-color: red !important;
+}
+
+
+.chatsilo-selected-tag:not([title]) {
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    background: #572f5b !important;
+    text-align: center;
+    width: 55px !important;
+}
+
+.cts-messenger .chatsilo-selected-tag{
+	width: calc( 100% - 6px ) !important;
+	/* font-size: 18px !important; */
+}
+
+.cts-friend-page-li .chatsilo-selected-tag, .cts-group-member-page-li .chatsilo-selected-tag{
+	float:right;
+}
+
+.new-fb-friends-page{
+  z-index: 9999;
+}
